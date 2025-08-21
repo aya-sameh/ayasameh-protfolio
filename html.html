@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css.css" />
+    <title>Portfolio</title>
+  </head>
+  <body class="body">
+    <div class="maindiv">
+      <header class="header">
+        <div class="brand">
+          <img
+            src="img/logo.jpg"
+            alt="logos photo"
+            class="logosphoto"
+            width="100px"
+          />
+          <h1 class="main_name">Aya Sameh</h1>
+        </div>
+        <button id="menuBtn" class="menu_btn">☰</button>
+      </header>
+      <nav id="sidemenu" class="side_menu" aria-hidden="true">
+        <h2 class="side_name">Menu</h2>
+        <hr />
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="div3b">
+        <div class="div3">
+          <button data-target="#home" class="homebtn">Home</button>
+          <button data-target="#about" class="aboutbtn">About</button>
+          <button data-target="#resume" class="resumebtn">Resume</button>
+          <button data-target="#contact" class="contactbtn">Contact</button>
+        </div>
+      </div>
+      <!-- قسم الصور والسلايدر -->
+      <div id="home" class="div2">
+        <div class="overlay"></div>
+        <div class="center-content">
+          <h2 class="name">Hello</h2>
+          <div class="div203">
+            <span class="flabel">My name is Aya and I am Data analyst.</span>
+          </div>
+        </div>
+      </div>
+      <div id="about" class="div4">
+        <div class="div401">About</div>
+        <div class="div402">
+          <span class="label2">
+            I am Aya Sameh, a passionate Data Analysis who loves transforming raw data into
+            meaningful insights that drive smart decisions. Skilled in using analytical tools 
+            and tecniques to identify patterns, create accurate reports, and deliver actionabel 
+            results.
+            <br />
+            <br />
+            I am highly organized, committed to deadlilnes, and abel to perform under pressure 
+            while keeping my work precise and detail-oriented. Always eager to learn and grow, 
+            my goal is to contribute to projects where data is valued as a key driver for success
+          </span>
+        </div>
+      </div>
+      <div id="resume" class="div5">
+        <div class="div501">
+          <div class="div502">Resume</div>
+          <div class="div503">
+            <div class="div_re_btn">
+              <button class="Skillsbtn">Skill</button>
+              <button class="projectsbtn">Projects</button>
+              <button class="__btn">Achievements</button>
+            </div>
+          </div>
+          <div class="div504">
+            <div class="content">
+              <div class="section">
+                <section class="skills-grid">
+                  <!-- الكاردات -->
+                  <article class="skill-card">
+                    <div class="skill-top">
+                      <span class="skill-name">Escel</span>
+                    </div>
+                    <div class="progress-row">
+                      <div class="progress" aria-label="HTML level">
+                        <span class="progress-fill" data-width="70"></span>
+                      </div>
+                      <span class="percent">70%</span>
+                    </div>
+                  </article>
+                  <article class="skill-card">
+                    <div class="skill-top">
+                      <span class="skill-name">SQL</span>
+                    </div>
+                    <div class="progress-row">
+                      <div class="progress" aria-label="CSS level">
+                        <span class="progress-fill" data-width="70"></span>
+                      </div>
+                      <span class="percent">70%</span>
+                    </div>
+                  </article>
+                  <article class="skill-card">
+                    <div class="skill-top">
+                      <span class="skill-name">Python</span>
+                    </div>
+                    <div class="progress-row">
+                      <div class="progress" aria-label="JavaScript level">
+                        <span class="progress-fill" data-width="40"></span>
+                      </div>
+                      <span class="percent">40%</span>
+                    </div>
+                  </article>
+                </section>
+              </div>
+              <div class="section">
+                <h2
+                  style="
+                    text-align: center;
+                    color: #38bdf8;
+                    margin-bottom: 20px;
+                  "
+                >
+                  My Projects & Experience
+                </h2>
+
+                <ul class="experience-list">
+                  <!-- Project 1 -->
+                  <li class="experience-card">
+                    <div class="experience-header">
+                      <h1>DashBoard</h1>
+                      <span>2025</span>
+                    </div>
+                    <div class="experience-img">
+                      <img src="img/dashboard.jpeg" alt="NTI Internship" />
+                    </div>
+                  </li>
+
+                  <!-- Project 2 -->
+                  <li class="experience-card">
+                    <div class="experience-header">
+                      <h1>DashBoard 2</h1>
+                      <span>2025</span>
+                    </div>
+                    <div class="experience-img">
+                      <img src="img/dashboard2.jpeg" alt="DEPI Internship" />
+                    </div>
+                  </li>
+
+                  <!-- Project 3 -->
+                  <li class="experience-card">
+                    <div class="experience-header">
+                      <h1>Portfolio Website</h1>
+                      <span>2025</span>
+                    </div>
+                    <div class="experience-img">
+                      <img src="img/protfolio.png" alt="Portfolio Project" />
+                    </div>
+                    <p>
+                      Designed and developed a responsive personal portfolio
+                      website to showcase skills, projects, and achievements
+                      using HTML, CSS, and JS.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+              <div class="section">
+                <div id="achievements" class="div7">
+                  <div class="div401">Achievements</div>
+                  <ul class="achievement-list">
+                    <li class="achievement-card">
+                      <span class="icon">🏅</span>
+                      <div class="achievement-content">
+                        <h3>Top Student Award</h3>
+                        <span class="date">2024</span>
+                        <p>Collect data for scientific research by Excel</p>
+                      </div>
+                    </li>
+                    <li class="achievement-card">
+                      <span class="icon">⭐</span>
+                      <div class="achievement-content">
+                        <h3>Make dashboard</h3>
+                        <span class="date">2025</span>
+                        <p>Create a profissional dashboard</p>
+                      </div>
+                    </li>
+                    </li>
+                  </ul>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="contact" class="div4">
+        <div class="div401">Contact</div>
+        <div
+          class="div602"
+          style="
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          "
+        >
+          <form
+            id="contact-form"
+            class="contact-modern-form"
+            autocomplete="off"
+          >
+            <h2>Send Me a Message</h2>
+            <div class="modern-group">
+              <input
+                type="text"
+                name="from_name"
+                id="from_name"
+                class="modern-input"
+                placeholder=" "
+                required
+                autocomplete="off"
+              />
+              <label for="from_name" class="modern-label">Name</label>
+            </div>
+            <div class="modern-group">
+              <input
+                type="email"
+                name="from_email"
+                id="from_email"
+                class="modern-input"
+                placeholder=" "
+                required
+                autocomplete="off"
+              />
+              <label for="from_email" class="modern-label">Email</label>
+            </div>
+            <div class="modern-group">
+              <textarea
+                name="message"
+                id="message"
+                class="modern-textarea"
+                placeholder=" "
+                required
+              ></textarea>
+              <label for="message" class="modern-label">Message</label>
+            </div>
+            <button type="submit">Send Message</button>
+            <div id="form-status"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="js.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+      emailjs.init("xiW_Q2XY0JMgcai6F"); // الـUser ID من EmailJS
+      document
+        .getElementById("contact-form")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+          emailjs.sendForm("service_zstwbyo", "template_cbpxg5u", this).then(
+            function () {
+              document.getElementById("form-status").innerHTML =
+                "✅ Message sent successfully!";
+              document.getElementById("contact-form").reset();
+            },
+            function (error) {
+              document.getElementById("form-status").innerHTML =
+                "❌ Sending failed. Please try again.";
+            }
+          );
+        });
+    </script>
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <img src="img/logo.jpg" alt="Logo" class="footer-logo" />
+          <h2>Aya Sameh</h2>
+          <p>Data Analyst & AI Enthusiast</p>
+        </div>
+
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-social">
+          <h3>Follow Me</h3>
+          <div class="social-icons">
+            <a href="https://www.linkedin.com/in/aya-sameh-628793325?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="img/linkedin.png" alt="LinkedIn" /></a>
+            <a href="https://github.com/AhmedSameh-bot"><img src="img/github.png" alt="GitHub" /></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 Aya Sameh | All Rights Reserved.</p>
+        <p>Made with Aya Sameh and Ahmed Sameh</p>
+      </div>
+    </footer>
+  </body>
+</html>
